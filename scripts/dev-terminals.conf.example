@@ -1,0 +1,13 @@
+# 例: このファイルを dev-terminals.conf にコピーして編集してください。
+# 形式: タブ名|起動コマンド（空ならログインシェルのみ）
+#
+# # BULK_SKIP_KEYS=test        … 一括「すべて開き直し」から除外するキー（カンマ区切り）
+# # FOCUS_KEYS=test            … Run Task 時にフォーカスするキー
+#
+# python3 scripts/sync-vscode-tasks-from-terminals-conf.py で .vscode/tasks.json を再生成
+
+alpha|
+beta|exec ./scripts/claude-resume-or-new.sh beta
+
+# 一括に含めない動作確認用
+test|
