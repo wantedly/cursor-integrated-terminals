@@ -1,6 +1,8 @@
 # Cursor 統合ターミナル用スクリプト (Reconnect&Resume)
 
 ワークスペースの **`scripts/dev-terminals.conf`** を正とし、名前付きターミナルを Cursor の **Tasks: Run Task** から開くための補助スクリプト群です（外部の Terminal.app は使いません）。
+複数のターミナルと複数のclaude codeのセッションを管理して、コンテキストを引き継いで利用されている方も多くいます。
+このスクリプトでは、Cursorを開き直すたびに、複数のターミナルとclaude codeのセッションを、開いたり、名前を書いたり、セッションをレジュームしたりすることを一元的に実行できるようにするものです。
 
 **ソースリポジトリ:** [github.com/wantedly/cursor-integrated-terminals](https://github.com/wantedly/cursor-integrated-terminals)（clone してそのまま使うか、`scripts/` 以下だけを任意のプロジェクトにコピー）
 
