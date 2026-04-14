@@ -1,4 +1,4 @@
-# Cursor 統合ターミナル用スクリプト
+# Cursor 統合ターミナル用スクリプト (Reconnect&Resume)
 
 ワークスペースの **`scripts/dev-terminals.conf`** を正とし、名前付きターミナルを Cursor の **Tasks: Run Task** から開くための補助スクリプト群です（外部の Terminal.app は使いません）。
 
